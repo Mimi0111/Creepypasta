@@ -1,36 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Creepypastas</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div id="loader">
-    <div id="knife"></div>
-  </div>
-  <div id="start-screen" class="hidden">
-    <h1 class="title">Creepypastas</h1>
-    <button id="enter-btn">Entrar</button>
-  </div>
-  <div id="editor" class="hidden">
-    <header>
-      <span class="credit">Created by: Mimi</span>
-    </header>
-    <h2>🩸 Creador de historias</h2>
-    <textarea id="story" placeholder="Escribe tu creepypasta aquí..."></textarea>
-    <div class="controls">
-      <label>Color del texto: <input type="color" id="textColor" value="#00ff00"></label>
-      <label>Color de fondo: <input type="color" id="bgColor" value="#000000"></label>
-    </div>
-    <div class="media">
-      <label>Imagen: <input type="file" id="imgInput" accept="image/*"></label>
-      <label>Video: <input type="file" id="videoInput" accept="video/*"></label>
-      <label>Audio: <input type="file" id="audioInput" accept="audio/*"></label>
-    </div>
-    <div id="preview"></div>
-  </div>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creepypasta</title>
+  </head>
+  <body class="bg-black text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
