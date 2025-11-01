@@ -1,2 +1,2 @@
 # Creepypasta
-Escribe las historias sobre los Creepypastas o tu propio creepy!!
+Write stories about Creepypastas or your own creepy story!!
